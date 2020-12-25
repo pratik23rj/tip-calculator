@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keyword" content="template, pratik, css, block , building block, component, hero">
+    <meta name="description" content="Hi, I am Pratik Jadhav. These are my Javascript Mini Project">
+    <meta name="author" content="Pratik Jadhav">
+    <meta name="copyright" content="Pratik Jadhav">
+    <meta name="theme-color" content="#0EA5E9">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;800&display=swap" rel="stylesheet">
+    <title> Tip Calculator </title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="input-section">
+            <label for="billAmount"> Bill Amount ?</label>
+            <input type="number" name="bill" id="billAmount" placeholder="₹">
+        </div>
+        
+        <div class="input-section">
+            <label for="tipPercentage"> % Tip ?</label>
+            <input type="number" name="tip" id="tipPercentage"
+            placeholder="%">
+        </div>
+        
+        <div class="input-section">
+           <label for="noOfPeople"> Number of People </label>
+            <input type="number" name="number" id="noOfPeople"> 
+        </div>
+        
+        <div>
+             <button onclick="calculate()">Calculate</button>
+        </div>
+
+        <div>
+            <h2 id="output"> </h2>
+        </div>
+       
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
